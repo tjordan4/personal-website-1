@@ -13,8 +13,8 @@ header {
 
     background-color: rgb(71, 65, 65);
     color: white;
-    height: 4em;
-    width: 100vw;
+    height: 10vh;
+    width: 100%;
     border: 1px solid rgb(71, 65, 65) ;
     font-size: 2em;
 }
@@ -28,20 +28,20 @@ a {
 header>div {
     display: flex;
     align-items: center;
-    height: 10vh;
+    height: 100%;
     margin-left: .7em;
 }
 
 main {
     background-color: rgb(153, 42, 42);
      min-width: 80vw;
-    min-height: 80vw;
+    min-height: 80vh;
 }
 
 aside {
     background-color: black;
     min-width: 10vw;
-    min-height: 80vw;
+    min-height: 80vh;
 }
 
 body {
@@ -59,3 +59,11 @@ footer {
     background-color: rgb(71, 65, 65);
     height: 10vh;
 }
+
+img {
+    width: 20vw;
+    border-radius: 5%;
+    border: .5em solid black;
+
+}
+
