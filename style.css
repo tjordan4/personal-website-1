@@ -34,8 +34,11 @@ header>div {
 
 main {
     background-color: rgb(153, 42, 42);
-     min-width: 80vw;
+    min-width: 80vw;
     min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem
 }
 
 aside {
@@ -61,33 +64,127 @@ footer {
 }
 
 .portrait{
-    width: 25vw;
+    width: 30rem;
     border-radius: 5%;
     border: .5em solid black;
+    margin-top: 4rem;
 }
 
-.photo {
-    text-align: end;
-    margin-right: 5rem;
-    margin-top: 8rem;
+.content{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 3rem;
+    row-gap: 2rem;
+    justify-items: center;
+    text-align: center;
 }
 
 .quote {
     font-family: harrington, fantasy;
-    position: absolute;
-    bottom: 16rem;
     margin-left: 5rem;
     font-size: 2em;
     font-weight: bold;
+    text-align: center;
+    height: fit-content;
+    grid-column: span 2;
 }
 
 .mission {
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 15rem;
-    margin-left: 4rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 3rem;
     font-size: 3em;
     font-weight: bold;
     text-decoration: underline;
     font-style: italic;
+    background-color: rgb(156, 156, 156);
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.aboutpics {
+    height: 18rem;
+    border-radius: 5%;
+    border: .4em solid black;
+    right: 15rem;
+}
+
+.picgrid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: .5rem;
+    justify-items: center;
+    margin-top: 4rem;
+    
+}
+
+.abouttext {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: rgb(156, 156, 156);
+    border-radius: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    width: 48rem;
+    height: 100%;
+    
+}
+
+.textbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    
+}
+
+ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.projgrid {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 1rem;
+}
+
+.guidetogames {
+    width: 30rem;
+    grid-column: 1;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+
+.site-descp {
+    grid-column: 2;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    border: solid 1rem rgb(156, 156, 156);
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    margin-right: 5rem;
+}
+
+.sitetitle {
+    font-size: 3rem;
+}
+
+.description{
+    font-size: 2.5rem;
+}
+
+.codecode {
+    width: 30rem;
+    grid-column: 1;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border-radius: 10px;
 }
