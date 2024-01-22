@@ -64,31 +64,36 @@ footer {
 }
 
 .portrait{
-    width: 25vw;
+    width: 30rem;
     border-radius: 5%;
     border: .5em solid black;
+    margin-top: 4rem;
 }
 
-.photo {
-    text-align: right;
-    margin-top: 8rem;
-    margin-left: 63rem;
-    
+.content{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 3rem;
+    row-gap: 2rem;
+    justify-items: center;
+    text-align: center;
 }
 
 .quote {
     font-family: harrington, fantasy;
-    bottom: 16rem;
     margin-left: 5rem;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    height: fit-content;
+    grid-column: span 2;
 }
 
 .mission {
     font-family: Arial, Helvetica, sans-serif;
-    top: 15rem;
-    margin-left: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-left: 3rem;
     font-size: 3em;
     font-weight: bold;
     text-decoration: underline;
