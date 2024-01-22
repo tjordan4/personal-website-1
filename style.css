@@ -188,3 +188,15 @@ ul{
     margin-left: 10rem;
     border-radius: 10px;
 }
+
+.form {
+    text-align: left;
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+button {
+    
+}
