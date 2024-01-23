@@ -125,8 +125,6 @@ footer {
     margin-left: 2rem;
     font-size: 2em;
     font-weight: bold;
-    text-decoration: underline;
-    font-style: italic;
     background-color: rgb(156, 156, 156);
     border-radius: 2.5rem;
     padding: 1.5rem;
@@ -158,8 +156,6 @@ ul{
 .guidetogames {
     width: 30rem;
     grid-column: 1;
-    margin-top: 3rem;
-    margin-left: 10rem;
     border-radius: 10px;
 }
 
@@ -181,6 +177,14 @@ ul{
     font-size: 2.5rem;
 }
 
+.projlink {
+    width: 30rem;
+    grid-column: 1;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+
 .codecode {
     width: 30rem;
     grid-column: 1;
@@ -194,9 +198,44 @@ ul{
     width: 100%;
     font-size: 3rem;
     margin-left: 10rem;
-    margin-top: 5rem;
+    margin-right: 10rem;
+    margin-top: 2.5rem;
 }
 
 button {
-    
+    font-size: 1.5rem;
+    border: .25rem solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(185, 187, 90);
+}
+
+.nav:hover {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#required {
+    border: .25rem solid black;
+    border-radius: 10px;
+}
+
+textarea {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 2rem;
+}
+
+main>form>div>input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>form>div>textarea{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="contact.js"></script>
+    <script defer src="contact.js"></script>
     <title>Contact Me</title>
 </head>
 <body>
@@ -15,16 +15,16 @@
         </div>
         
         <nav>
-            <a href="home.html">Home</a>   
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Portfolio</a>
+            <a href="home.html" class="nav">Home</a>   
+            <a href="about.html" class="nav">About Me</a>
+            <a href="projects.html" class="nav">Portfolio</a>
         </nav> 
     </header>
 
     <div>
      <aside></aside>
      <main>
-        <Form method="get" class="form">
+        <form method="get" class="form" id="form">
             <div>
                 <label for="Name">Name:</label>
                 <input type="text" name="Name:" id="required" />
@@ -34,13 +34,13 @@
                 <input type="text" name="Name:" id="required" />
             </div>
             <div>
-                <label for="Message">Message</label>
-                <input type="text" name="Name:" id="required" />
+                <label for="Message">Message:</label>
+                <textarea id="required" name="message" rows="10" cols="40"></textarea>
             </div>
             <div>
-                <button>Submit</button>
+                <button id="submit" type="submit">Submit</button>
             </div>
-        </Form>
+        </form>
      </main>
      <aside></aside>
     </div>
