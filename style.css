@@ -183,6 +183,7 @@ ul{
     margin-top: 3rem;
     margin-left: 10rem;
     border-radius: 10px;
+    height: 15rem;
 }
 
 .codecode {
@@ -238,4 +239,20 @@ main>form>div>input {
 main>form>div>textarea{
     display: flex;
     flex-wrap: wrap;
+}
+
+.thxbox {
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks {
+    background-color: rgb(156, 156, 156);
+    font-size: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 10rem;
+    text-align: center;
 }
